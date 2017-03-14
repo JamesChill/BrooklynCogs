@@ -2281,3 +2281,4 @@ def setup(bot):
     bot.loop.create_task(n.disconnect_timer())
     bot.loop.create_task(n.reload_monitor())
     bot.loop.create_task(n.cache_scheduler())
+ 
